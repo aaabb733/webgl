@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>レイマーチング　サンプル</title>
+    <style>
+        body {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div style="position:absolute; left:0;top:0;">
+        <div style="padding: 1rem; background: white; opacity:0.7;">
+            <div>
+                WASD: XZ平面上を移動
+            </div>
+            <div>
+                上下キー: XY平面上を移動
+            </div>
+            <div>
+                <label for="loop">マーチングループ回数:</label>
+                <br>
+                <input type="number" id="loop" value="100">
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
